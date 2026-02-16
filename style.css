@@ -11,7 +11,7 @@
 
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: var(--bg);
     color: var(--text);
     transition: 0.3s ease;
@@ -59,10 +59,9 @@ body.light section {
     background: var(--light-card);
 }
 
-h1, h2 {
-    color: var(--accent);
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
 }
-
 .skill-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
