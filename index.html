@@ -9,7 +9,17 @@
 <body>
 
 <button class="toggle-btn" onclick="toggleTheme()">Toggle Theme</button>
-
+    
+<nav class="navbar">
+    <div class="nav-logo">George P.</div>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 <header class="hero">
     <div class="hero-content">
         <img src="passport.jpg" alt="George Petereseu">
@@ -19,7 +29,7 @@
     </div>
 </header>
 
-<section class="about">
+<section id="about" class="about">
     <h2>About Me</h2>
     <p>
         Detail-oriented IT professional with hands-on experience at KEMSA and the
@@ -29,7 +39,7 @@
     </p>
 </section>
 
-<section class="skills">
+<section id="skills" class="skills">
     <h2>Technical Skills</h2>
     <div class="skill-grid">
         <div>System Administration</div>
@@ -41,7 +51,7 @@
     </div>
 </section>
 
-<section class="experience">
+<section id="experience" class="experience">
     <h2>Experience</h2>
 
     <div class="job">
@@ -62,8 +72,33 @@
         <p>ERP/WMS installation, server room management, OS installation, network troubleshooting.</p>
     </div>
 </section>
+    <section id="projects" class="projects">
+    <h2>Projects</h2>
 
-<section class="contact">
+    <div class="project-grid">
+
+        <div class="project-card">
+            <h3>Student ID Barcode System</h3>
+            <p>Barcode-based verification system for student management and tracking.</p>
+            <span>HTML | CSS | JavaScript</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Court Case Management System</h3>
+            <p>Web system for managing and storing court case files digitally.</p>
+            <span>HTML | CSS | JS | Database</span>
+        </div>
+
+        <div class="project-card">
+            <h3>School Club Membership System</h3>
+            <p>Database-driven system for managing student club registrations.</p>
+            <span>Database Design | ERD | Web</span>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
     <h2>Contact</h2>
     <p>Email: petereseu@gmail.com</p>
     <p>Phone: +254 746 754663</p>
