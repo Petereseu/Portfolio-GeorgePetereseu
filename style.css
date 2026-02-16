@@ -162,5 +162,19 @@ html {
     opacity: 1;
     transform: translateY(0);
 }
+.cv-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 22px;
+    border-radius: 25px;
+    background: var(--accent);
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.cv-btn:hover {
+    background: var(--accent-hover);
+}
 
 
